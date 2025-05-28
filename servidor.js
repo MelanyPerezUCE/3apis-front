@@ -28,7 +28,7 @@ app.get("/", (req,res) =>{
 });
 
 app.get("/api", async (req,res) =>{
-    var Solicitud = await fetch(`http://localhost:3000`, {
+    var Solicitud = await fetch(`http://ec2-44-201-176-196.compute-1.amazonaws.com:3000`, {
             method: "GET",  // Cambiar a POST
             headers: {
                 "Content-Type": "application/json"  // Especificamos que los datos están en formato JSON
