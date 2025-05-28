@@ -1,5 +1,5 @@
 async function apisita () {
-    var Solicitud = await fetch(`http://localhost:3001/api`, {
+    var Solicitud = await fetch(`/api`, {
             method: "GET",  // Cambiar a POST
             headers: {
                 "Content-Type": "application/json"  // Especificamos que los datos están en formato JSON
